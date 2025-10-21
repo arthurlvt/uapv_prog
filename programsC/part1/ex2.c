@@ -7,7 +7,15 @@ int main() {
     for (int i = 1; i <= y; i++) {
         somme += i * i;
     }
-    printf("Average of squares from 1 to %d is %.2f\n", y, somme / 15.0);
+    int compteur1 = 0;
+    int compteur2 = 0;
+    for (int i = 1; i <= 10; i++) {
+        if (i <= 5) compteur1++;
+        else compteur2++;
+    }
+    printf("Compteur1: %d, Compteur2: %d\n", compteur1, compteur2);
+}
+    printf("Average of squares from 1 to %d is %.2f\n Sum of squares is equal to ", n, somme / 15.0);
 }
 
 /* PART 1 - Ex2 : Factorial of a value */
