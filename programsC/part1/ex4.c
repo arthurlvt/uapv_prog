@@ -1,6 +1,8 @@
 /* PART 1 - Ex4: Farenheit to Celcius Convertissor */
+
 #include <stdio.h>
-int main(void) {
+
+int main() {
     double temp;
     printf("Please enter the temperature in °Fahrenheit: ");
     if (scanf("%lf", &temp) != 1) return 1;
