@@ -1,5 +1,4 @@
 /* PART 1 - Ex2: Average of squares from 1 y */
-
 #include <stdio.h>
 
 int main() {
@@ -13,7 +12,6 @@ int main() {
 }
 
 /* PART 1 - Ex2: Factorial of a value */
-
 #include <stdio.h>
 
 int main() {
@@ -24,4 +22,3 @@ int main() {
     }
     printf("Factorial of %d is %d\n", n, factorial);
 }
-
