@@ -1,4 +1,4 @@
-/* PART 1 - Ex4: Farenheit to Celcius Convertissor */
+/* Temperature Convertissor */
 #include <stdio.h>
 
 int main() {
