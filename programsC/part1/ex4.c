@@ -1,5 +1,4 @@
 /* PART 1 - Ex4: Farenheit to Celcius Convertissor */
-
 #include <stdio.h>
 
 int main() {
