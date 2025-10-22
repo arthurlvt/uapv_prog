@@ -1,4 +1,5 @@
 /* n VALUES IN * */
+
 #include <stdio.h>
 int main() {
     int n;
@@ -13,6 +14,7 @@ int main() {
 }
 
 /* SQUARE OF n VALUES IN * */
+
 #include <stdio.h>
 int main() {
     int n;

@@ -1,4 +1,5 @@
 /* SORTING VALUES A, B, C */
+
 #include <stdio.h> 
 int main() {
     int a, b, c;
@@ -19,7 +20,9 @@ int main() {
     }
 }
 
+
 /* All divisors of an int */
+
 #include <stdio.h>
 int main() {
     int n;
@@ -32,19 +35,22 @@ int main() {
     printf("\n");
 }
 
+
 /* Average of squares from 1 y */
 #include <stdio.h>
 int main() {
-    int, y, somme = 0;
+    int y, somme = 0;
     printf("Enter a value for y (maximum): ");
-    scanf("%d" y);
+    scanf("%d", y);
     for (int i = 1; i <= y; i++) {
         somme += i * i;
     }
-    printf("Average of squares from 1 to %d is %.2f\n Sum of squares is equal to ", n, somme / y);
+    printf("Average of squares from 1 to %d is %.2f\n Sum of squares is equal to ", y, somme / y);
 }
 
+
 /* Factorial of a value */
+
 #include <stdio.h>
 int main() {
     int factorial, n;

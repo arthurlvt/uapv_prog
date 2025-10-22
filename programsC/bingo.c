@@ -1,4 +1,5 @@
 /* GUESS THE NUMBER (BINGO!) - FIRST WAY */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -22,7 +23,9 @@ int main(void) {
     }
 }
 
+
 /* GUESS THE NUMBER (BINGO!) - SECOND WAY */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

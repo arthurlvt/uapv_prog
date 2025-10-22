@@ -1,4 +1,5 @@
 /* (ALMOST) COMPLETE CALCULATOR */
+
 #include <stdio.h>
 int main() {
     int a, b, operator, mode;

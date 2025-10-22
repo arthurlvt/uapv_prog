@@ -1,6 +1,6 @@
 /* Temperature Convertissor */
-#include <stdio.h>
 
+#include <stdio.h>
 int main() {
     double temp;
     printf("Please enter the temperature in °Fahrenheit: ");

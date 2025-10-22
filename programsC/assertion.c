@@ -1,4 +1,5 @@
 /* True and False Logical Assertions */
+
 #include <stdio.h>
 int main() {
     int average = 10, grade1 = 6, grade2 = 8, age = 15;
