@@ -1,5 +1,4 @@
 /* PART 1 - Ex3:  True and False logical assertions */
-
 #include <stdio.h>
 
 int main() {
@@ -41,6 +40,5 @@ int main() {
         printf("Assertion F false\n");
     }
 }
-
 
 
