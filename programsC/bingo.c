@@ -26,7 +26,6 @@ int main(void) {
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 int main() {
     srand((unsigned)time(NULL));
     int randNum = rand() % 10 + 1;

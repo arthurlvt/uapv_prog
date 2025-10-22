@@ -1,6 +1,6 @@
 /* (ALMOST) COMPLETE CALCULATOR */
 #include <stdio.h>
-int main(void) {
+int main() {
     int a, b, operator, mode;
     printf("Choose mode (1: calculate, 2: quit): ");
     scanf("%d", &mode);

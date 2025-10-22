@@ -1,6 +1,5 @@
 /* SORTING VALUES A, B, C */
 #include <stdio.h> 
-
 int main() {
     int a, b, c;
     printf("Please enter 3 int values (A, B, C): ");
@@ -22,7 +21,6 @@ int main() {
 
 /* All divisors of an int */
 #include <stdio.h>
-
 int main() {
     int n;
     printf("Enter an int: ");
@@ -36,7 +34,6 @@ int main() {
 
 /* Average of squares from 1 y */
 #include <stdio.h>
-
 int main() {
     int, y, somme = 0;
     printf("Enter a value for y (maximum): ");
@@ -49,7 +46,6 @@ int main() {
 
 /* Factorial of a value */
 #include <stdio.h>
-
 int main() {
     int factorial, n;
     printf("Enter an int value to get its factorial: ");

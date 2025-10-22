@@ -1,6 +1,6 @@
 /* n VALUES IN * */
 #include <stdio.h>
-int main(void) {
+int main() {
     int n;
     printf("Enter an integer value n: ");
     scanf("%d", &n);
@@ -14,7 +14,7 @@ int main(void) {
 
 /* SQUARE OF n VALUES IN * */
 #include <stdio.h>
-int main(void) {
+int main() {
     int n;
     printf("Enter an integer value n: ");
     scanf("%d", &n);
