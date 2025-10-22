@@ -1,5 +1,7 @@
 /* PART 1 - Ex3:  True and False logical assertions */
+
 #include <stdio.h>
+
 int main() {
     int average = 10, grade1 = 6, grade2 = 8, age = 15;
 
