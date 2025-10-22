@@ -1,6 +1,4 @@
-
-
-/* PART 1 - Ex5: SORTING VALUES A, B, C */
+/* SORTING VALUES A, B, C */
 #include <stdio.h> 
 
 int main() {
@@ -22,7 +20,7 @@ int main() {
     }
 }
 
-/*PART 1 - Ex5: All divisors of an int */
+/* All divisors of an int */
 #include <stdio.h>
 
 int main() {
