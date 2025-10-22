@@ -98,24 +98,36 @@ int main(void) {
     return 0;
 }
 
-/* EXERCICE 8 - PARTIE B: TRIE DE VALEURS A, B, C */
-
+/* PART 1 - Ex6: SORTING VALUES A, B, C */
 #include <stdio.h> 
 int main(void) {
     int a, b, c;
-    printf("Entrez trois valeurs entières (A, B, C): ");
+    printf("Please enter 3 int values (A, B, C): ");
     scanf("%d %d %d", &a, &b, &c);
     if (a > b) {
         if (a > c) {
-            printf("L'ordre décroissant est: %d, %d, %d\n", a, b > c ? b : c, b > c ? c : b);
+            printf("Ascending order: %d, %d, %d\n", a, b > c ? b : c, b > c ? c : b);
         } else {
-            printf("L'ordre décroissant est: %d, %d, %d\n", c, a, b);
+            printf("ascending order: %d, %d, %d\n", c, a, b);
         }
     } else {
         if (b > c) {
-            printf("L'ordre décroissant est: %d, %d, %d\n", b, a > c ? a : c, a > c ? c : a);
+            printf("ascending order: %d, %d, %d\n", b, a > c ? a : c, a > c ? c : a);
         } else {
-            printf("L'ordre décroissant est: %d, %d, %d\n", c, b, a);
+            printf("ascending order: %d, %d, %d\n", c, b, a);
         }
     }
+}
+
+/*PART 1 - Ex 7: All divisors of an int */
+#include <stdio.h>
+int main(void) {
+    int n;
+    printf("Enter an int: ");
+    if (scanf("%d", &n) != 1) return 1;
+    printf("Divisors %d are: ", n);
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0) printf("%d ", i);
+    }
+    printf("\n");
 }
