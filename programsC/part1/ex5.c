@@ -1,5 +1,4 @@
 /* PART 1 - Ex5: BINGO.c!  */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -26,7 +25,8 @@ int main() {
 
 /* PART 1 - Ex5: SORTING VALUES A, B, C */
 #include <stdio.h> 
-int main(void) {
+
+int main() {
     int a, b, c;
     printf("Please enter 3 int values (A, B, C): ");
     scanf("%d %d %d", &a, &b, &c);
@@ -47,7 +47,8 @@ int main(void) {
 
 /*PART 1 - Ex5: All divisors of an int */
 #include <stdio.h>
-int main(void) {
+
+int main() {
     int n;
     printf("Enter an int: ");
     if (scanf("%d", &n) != 1) return 1;
